@@ -68,6 +68,8 @@ header > div > p {
     margin-bottom: 54px;
 }
 
+/**********************  header BUTTONS  *********************/
+
 .icons-container {
     width: 240px;
     height: 48px;
@@ -122,13 +124,14 @@ header > div > p {
     flex-direction: column;
 }
 
+/*section introduction*/
+
 .introduction {
     width: 1140px;
     height: 519px;
     border-radius: 35px;
     background: #FF7315;
     margin-bottom: 125px;
-    border: 1px solid red;
 }
 
 .introduction img {
@@ -170,6 +173,8 @@ header > div > p {
     line-height: 45px; /* 187.5% */
 }
 
+/********************   section skills  *******************/
+
 .skills {
     flex-direction: column;
 }
@@ -209,6 +214,8 @@ header > div > p {
     line-height: 30px;
 }
 
+/**************       section portfolio     *************/
+
 .portfolio-title {
     margin: 125px 1087px 64px 150px;
 }
@@ -234,6 +241,8 @@ header > div > p {
 .portfolio-container img:hover {
     transform: scale(1.05);
 }
+
+/**************       section quotes     *************/
 
 .quotes {
     width: 1440px;
@@ -286,6 +295,8 @@ header > div > p {
     font-size: 24px;
     font-weight: 400;
 }
+
+/**************       section Price plans     *************/
 
 .prices {
     flex-direction: column;
@@ -380,7 +391,7 @@ header > div > p {
 .plan-features li.unchecked {
     opacity: 0.5;
 }
-
+/**************      email-container    *************/
 .email-container {
     width: 1110px;
     height: 224px;
@@ -421,7 +432,7 @@ header > div > p {
     background-color: #F0C3A8;
     transform: translateY(2px);
 }
-
+/**************      section Blog    *************/
 .blog {
     flex-direction: column;
     margin-bottom: 125px;
@@ -472,7 +483,7 @@ header > div > p {
 .blog img {
     border-radius: 10px;
 }
-
+/**************      section footer    *************/
 footer {
     width: 1440px;
     height: 170px;
