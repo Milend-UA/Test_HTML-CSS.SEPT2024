@@ -1,23 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-.flex{
+
+.flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.core-font{
+
+.core-font {
     color: #222;
     font-size: 48px;
     font-weight: 600;
     line-height: 60px;
     text-transform: capitalize;
 }
-.content-wrapper{
+
+.content-wrapper {
     width: 1440px;
     background: #FAF4F2;
     justify-content: start;
@@ -25,13 +29,15 @@
     margin: 0 auto;
     position: relative;
 }
-header{
+
+header {
     width: 1440px;
     align-items: start;
     gap: 167px;
     margin: 100px 176px 125px 182px;
 }
-.logo{
+
+.logo {
     color: #F9F9F9;
     font-size: 18px;
     font-weight: 500;
@@ -39,17 +45,20 @@ header{
     top: 36px;
     left: 22px;
 }
-.header-info{
+
+.header-info {
     width: 509px;
     align-items: start;
     flex-direction: column;
     margin: 12px 0 7px 0;
 }
-h1.font-size{
+
+h1.font-size {
     width: 475px;
     font-size: 40px;
 }
-header>div>p{
+
+header > div > p {
     width: 509px;
     height: 144px;
     color: #222;
@@ -58,17 +67,20 @@ header>div>p{
     line-height: 30px; /* 166.667% */
     margin-bottom: 54px;
 }
-.icons-container{
+
+.icons-container {
     width: 240px;
     height: 48px;
     margin-bottom: 25px;
     justify-content: space-between;
 }
+
 .icons-container a {
     width: 48px;
     height: 48px;
 }
-.icons-container a img{
+
+.icons-container a img {
     transition: transform 0.3s ease;
 }
 
@@ -76,10 +88,11 @@ header>div>p{
     transform: scale(1.1);
 }
 
-.buttons-container{
+.buttons-container {
     display: flex;
     gap: 30px;
 }
+
 .send,
 .download {
     width: 153px;
@@ -92,20 +105,24 @@ header>div>p{
     background: #FAF4F2;
     transition: background 0.5s, color 0.5s, transform 0.3s;
 }
+
 .send:hover,
 .download:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
+
 .send:active,
 .download:active {
     background: #FF2950;
     color: #F9F9F9;
 }
-.main{
+
+.main {
     flex-direction: column;
 }
-.introduction{
+
+.introduction {
     width: 1140px;
     height: 519px;
     border-radius: 35px;
@@ -113,10 +130,12 @@ header>div>p{
     margin-bottom: 125px;
     border: 1px solid red;
 }
-.introduction img{
+
+.introduction img {
     margin: 93px 32px 97px 32px;
 }
-.text-container{
+
+.text-container {
     display: flex;
     justify-content: center;
     align-items: start;
@@ -124,21 +143,25 @@ header>div>p{
     margin: 62px 76px 63px 0;
     gap: 19px;
 }
+
 .text-container p:nth-child(1) {
     color: #F9F9F9;
     font-size: 72px;
     font-weight: 600;
     line-height: 62px;
 }
+
 .text-container p:nth-child(2) {
     color: #F9F9F9;
     font-size: 24px;
     font-weight: 400;
     line-height: 36px; /* 150% */
 }
+
 .introduction-title {
     color: #F9F9F9;
 }
+
 .text-container p:nth-child(4) {
     width: 570px;
     color: #F9F9F9;
@@ -146,23 +169,29 @@ header>div>p{
     font-weight: 400;
     line-height: 45px; /* 187.5% */
 }
-.skills{
+
+.skills {
     flex-direction: column;
 }
-.skills-cards{
+
+.skills-cards {
     gap: 60px;
 }
-.skills-title{
+
+.skills-title {
     color: #222;
     margin-bottom: 100px;
 }
+
 .skills-card {
     flex-direction: column;
     width: 240px;
 }
-.skills-card img{
+
+.skills-card img {
     margin-bottom: 51px;
 }
+
 .skills-card h4:nth-child(2) {
     color: #222;
     text-align: center;
@@ -171,6 +200,7 @@ header>div>p{
     line-height: 36px;
     margin-bottom: 12px;
 }
+
 .skills-card p:nth-child(3) {
     color: rgba(34, 34, 34, 0.50);
     text-align: center;
@@ -178,28 +208,34 @@ header>div>p{
     font-weight: 400;
     line-height: 30px;
 }
-.portfolio-title{
+
+.portfolio-title {
     margin: 125px 1087px 64px 150px;
 }
-.portfolio-container{
+
+.portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     margin: 0 231px 125px 231px;
     gap: 24px;
 }
+
 .portfolio-container a img {
     width: 310px;
     height: 300px;
     object-fit: cover;
 }
-.portfolio-container img{
+
+.portfolio-container img {
     transition: transform 0.75s;
 }
+
 .portfolio-container img:hover {
     transform: scale(1.05);
 }
-.quotes{
+
+.quotes {
     width: 1440px;
     height: 643px;
     background: #FF7315;
@@ -207,53 +243,63 @@ header>div>p{
     flex-direction: column;
     margin-bottom: 125px;
 }
-.quotes-title{
+
+.quotes-title {
     width: 609px;
     color: #F9F9F9;
     text-align: center;
     margin: 48px 416px 111px 415px;
 }
-.quotes-container{
+
+.quotes-container {
     gap: 82px;
 }
-.quote-one{
+
+.quote-one {
     width: 529px;
     height: 179px;
     border-radius: 30px;
     background: #F9F9F9;
     padding: 24px 55px 47px 55px;
 }
-.quote-two{
+
+.quote-two {
     width: 529px;
     height: 179px;
     border-radius: 30px;
     background: #F9F9F9;
     padding: 24px 55px 11px 55px;
 }
-.quote-one-text{
+
+.quote-one-text {
     width: 419px;
     height: 108px;
     color: #222;
     font-size: 24px;
     font-weight: 400;
 }
-.quote-two-text{
+
+.quote-two-text {
     width: 419px;
     height: 144px;
     color: #222;
     font-size: 24px;
     font-weight: 400;
 }
+
 .prices {
     flex-direction: column;
 }
+
 .prices-title {
     margin-bottom: 64px;
 }
+
 .price-cards-container {
     gap: 68px;
     margin-bottom: 100px;
 }
+
 .price-card {
     width: 335px;
     height: 500px;
@@ -261,6 +307,7 @@ header>div>p{
     background: #F9F9F9;
     box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
 }
+
 .price-card-title {
     width: 335px;
     height: 66px;
@@ -272,6 +319,7 @@ header>div>p{
     font-weight: 600;
     text-transform: capitalize;
 }
+
 .plan-price {
     display: flex;
     justify-content: center;
@@ -279,6 +327,7 @@ header>div>p{
     flex-direction: column;
     text-align: center;
 }
+
 .price {
     color: #2B2B2B;
     font-size: 32px;
@@ -287,6 +336,7 @@ header>div>p{
     text-transform: capitalize;
     margin: 36px 12px 29px auto;
 }
+
 .prices h2 span {
     color: #2B2B2B;
     font-kerning: none;
@@ -299,10 +349,12 @@ header>div>p{
     opacity: 0.5;
     margin: 47px 83px 34px 0;
 }
+
 .plan-features {
     list-style-type: none;
     margin-left: 48px;
 }
+
 .plan-features li {
     color: #222;
     font-kerning: none;
@@ -315,17 +367,21 @@ header>div>p{
     position: relative;
     padding-left: 40px;
 }
+
 .icon {
     position: absolute;
     left: 0;
 }
+
 .unchecked .icon {
     opacity: 0.5;
 }
+
 .plan-features li.unchecked {
     opacity: 0.5;
 }
-.email-container{
+
+.email-container {
     width: 1110px;
     height: 224px;
     border-radius: 25px;
@@ -333,7 +389,8 @@ header>div>p{
     gap: 333px;
     margin-bottom: 125px;
 }
-.email-title{
+
+.email-title {
     color: #F9F9F9;
     font-size: 36px;
     font-weight: 600;
@@ -342,7 +399,8 @@ header>div>p{
     height: 124px;
     margin: 50px 0 50px 75px;
 }
-.email-button{
+
+.email-button {
     width: 259px;
     height: 70px;
     border-radius: 10px;
@@ -353,26 +411,32 @@ header>div>p{
     font-size: 24px;
     font-weight: 600;
 }
+
 .email-button:hover {
     background-color: #F5D6BA;
     cursor: pointer;
 }
+
 .email-button:active {
     background-color: #F0C3A8;
     transform: translateY(2px);
 }
+
 .blog {
     flex-direction: column;
     margin-bottom: 125px;
 }
+
 .blog-title {
     width: 108px;
     height: 62px;
     margin: 0 1182px 48px 150px;
 }
+
 .blog-cards-container {
     gap: 20px;
 }
+
 .blog-card {
     width: 270px;
     height: 364px;
@@ -382,6 +446,7 @@ header>div>p{
     flex-direction: column;
     padding-top: 15px;
 }
+
 .blog-card-title {
     color: #222;
     font-size: 16px;
@@ -390,6 +455,7 @@ header>div>p{
     text-transform: capitalize;
     margin: 24px 0 12px 0;
 }
+
 .blog-card-description {
     width: 240px;
     height: 70px;
@@ -402,15 +468,18 @@ header>div>p{
     text-transform: capitalize;
     margin-bottom: 57px;
 }
+
 .blog img {
     border-radius: 10px;
 }
-footer{
+
+footer {
     width: 1440px;
     height: 170px;
     background: #F1F1F1;
 }
-footer p{
+
+footer p {
     color: #222;
     font-size: 18px;
     font-weight: 500;
