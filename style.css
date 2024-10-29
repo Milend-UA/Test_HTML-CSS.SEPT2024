@@ -37,14 +37,14 @@ header {
     margin: 100px 176px 125px 182px;
 }
 
-.logo {
-    color: #F9F9F9;
-    font-size: 18px;
-    font-weight: 500;
-    position: absolute;
-    top: 36px;
-    left: 22px;
-}
+/*.logo {*/
+/*    color: #F9F9F9;*/
+/*    font-size: 18px;*/
+/*    font-weight: 500;*/
+/*    position: absolute;*/
+/*    top: 36px;*/
+/*    left: 22px;*/
+/*}*/
 
 .header-info {
     width: 509px;
