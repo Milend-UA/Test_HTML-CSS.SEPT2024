@@ -7,7 +7,7 @@
     font-family: "Poppins", sans-serif;
 }
 
-.flex {
+.flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,8 +95,7 @@ header > div > p {
     gap: 30px;
 }
 
-.send,
-.download {
+.btn{
     width: 153px;
     height: 55px;
     border-radius: 10px;
@@ -108,14 +107,12 @@ header > div > p {
     transition: background 0.5s, color 0.5s, transform 0.3s;
 }
 
-.send:hover,
-.download:hover {
+.btn:hover {
     transform: scale(1.05);
     cursor: pointer;
 }
 
-.send:active,
-.download:active {
+.btn:active {
     background: #FF2950;
     color: #F9F9F9;
 }
@@ -384,11 +381,7 @@ header > div > p {
     left: 0;
 }
 
-.unchecked .icon {
-    opacity: 0.5;
-}
-
-.plan-features li.unchecked {
+.unchecked {
     opacity: 0.5;
 }
 /**************      email-container    *************/
