@@ -258,33 +258,24 @@ header > div > p {
     gap: 82px;
 }
 
-.quote-one {
+.quote {
     width: 529px;
     height: 179px;
     border-radius: 30px;
     background: #F9F9F9;
+}
+
+.quote-one {
     padding: 24px 55px 47px 55px;
 }
 
 .quote-two {
-    width: 529px;
-    height: 179px;
-    border-radius: 30px;
-    background: #F9F9F9;
     padding: 24px 55px 11px 55px;
 }
 
-.quote-one-text {
-    width: 419px;
-    height: 108px;
-    color: #222;
-    font-size: 24px;
-    font-weight: 400;
-}
-
-.quote-two-text {
-    width: 419px;
-    height: 144px;
+.quote-text {
+    /*width: 419px;*/
+    /*height: 108px;*/
     color: #222;
     font-size: 24px;
     font-weight: 400;
@@ -326,9 +317,6 @@ header > div > p {
 }
 
 .plan-price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
     text-align: center;
 }
