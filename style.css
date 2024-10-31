@@ -136,8 +136,6 @@ header > div > p {
 }
 
 .text-container {
-    display: flex;
-    justify-content: center;
     align-items: start;
     flex-direction: column;
     margin: 62px 76px 63px 0;
@@ -181,7 +179,6 @@ header > div > p {
 }
 
 .skills-title {
-    color: #222;
     margin-bottom: 100px;
 }
 
